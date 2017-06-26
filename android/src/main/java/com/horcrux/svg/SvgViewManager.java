@@ -30,12 +30,7 @@ public class SvgViewManager extends BaseViewManager<SvgView, SvgViewShadowNode> 
 
     private static final YogaMeasureFunction MEASURE_FUNCTION = new YogaMeasureFunction() {
         @Override
-        public long measure(
-                YogaNode node,
-                float width,
-                YogaMeasureMode widthMode,
-                float height,
-                YogaMeasureMode heightMode) {
+        public long measure(YogaNodeAPI node, float width, YogaMeasureMode widthMode, float height, YogaMeasureMode heightMode) {
             throw new IllegalStateException("SurfaceView should have explicit width and height set");
         }
     };
