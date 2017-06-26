@@ -17,6 +17,7 @@ import com.facebook.yoga.YogaMeasureFunction;
 import com.facebook.yoga.YogaNode;
 import com.facebook.react.uimanager.BaseViewManager;
 import com.facebook.react.uimanager.ThemedReactContext;
+import com.facebook.yoga.YogaNodeAPI;
 
 import javax.annotation.Nullable;
 
